@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: "Comic Sans MS", "Comic Sans";
+    font-family: "Montserrat", "sans-seriff";
     font-size: 16px;
     line-height: 1.5;
     background-color: white;
@@ -22,13 +22,9 @@ ul {
     list-style: none;
 }
 
-img {
-    max-width: 10%;
-}
-
 /* Navbar */
 .navbar {
-    background: #fff;
+    background: linear-gradient(white, lightcyan);
     padding: 20px;
 }
 
@@ -53,6 +49,65 @@ img {
     color: aqua;
 }
 
+.navbar ul li:last-child a {
+    margin-left: 10px;
+}
+
+
+
+/* Logo  */
+.logo {
+    display: inline-block; 
+  }
+  
+  .logo h1 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2.5em;
+    font-weight: 900;
+    color: #000000; 
+    margin: 0;
+    letter-spacing: 2px; 
+  }
+  
+  .logo .highlight {
+    color: #ff4D00; 
+  }
+  
+
+/* Hero */
+
+.hero{
+    margin-bottom: 100px;
+}
+
+.hero .container{
+    background: url('../images/hero-bg.png') no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    height: 550;
+}
+
+/* Video */
+.video{
+    padding: 10px 0 40px;
+    color:white
+    
+}
+.video-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.video-preview {
+    margin-bottom: 20px;
+    max-width: 1100px;
+    max-height: fit-content;
+    border-style: groove;
+}
+
+
 /* Utility Classes */
 
 .container {
@@ -67,4 +122,71 @@ img {
     margin: 0 auto;
     padding: 0 15px;
     
+}
+
+/* Button */
+
+.btn {
+    display: inline-block;
+    padding: 13px 20px;
+    background-color: lightgray;
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* Text Classes */
+
+.text-xxl {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 40px 0 20px;
+
+}
+
+.text-xl {
+    font-size: 2.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 40px 0 20px;
+    
+}
+
+.text-lg {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 30px 0 20px;
+    
+}
+
+.text-md {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 20px 0 10px;
+    
+}
+
+.text-sm {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 10px 0 5px;
+    
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Background */
+.bg-black{
+    background-color: black;
+
 }
