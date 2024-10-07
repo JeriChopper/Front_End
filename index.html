@@ -1,70 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FACEIT LEVEL 10 GUIDE</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JeriChopper</title>
+
+    <!-- Fonts and Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
     <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-                <h1>Jeri<span class="highlight">Chopper</span></h1>
-            </div>
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.png" alt="JeriChopper" />
+          </a>
+        </div>
+
         <div class="main-menu">
-            <ul>
-                <li>
-                    <a href="https://www.youtube.com/JeriChopper"> Youtube</a>
-                </li>
-                <li>
-                    <a href="https://www.faceit.com/en/players/JeriChopper"> Faceit</a>
-                </li>
-                <li>
-                    <a href="https://www.twitch.tv/JeriChopper"> Twitch</a>
-                </li>
-                <li>
-                    <a class="btn" href="#">More</a>
-                </li>
-            </ul>
+          <ul>
+            <li><a href="https://youtube.com/JeriChopper">Youtube</a></li>
+            <li><a href="https://twitch.tv/JeriChopper">Twitch</a></li>
+            <li><a href="https://faceit.com/en/players/JeriChopper">Faceit</a></li>
+            <li>
+              <a class="btn" href="https://steamcommunity.com/id/JeriChopper/"><i class="fas fa-user"></i> Steam</a>
+            </li>
+          </ul>
         </div>
+        <!---Hamburger Button-->
+        <button id="hamburger-button" class="hamburger-button">
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+        </button>
+        <div class="mobile-menu">
+          <ul>
+            <li><a href="https://youtube.com/JeriChopper">Youtube</a></li>
+            <li><a href="https://twitch.tv/JeriChopper">Twitch</a></li>
+            <li><a href="https://faceit.com/en/players/JeriChopper">Faceit</a></li>
+            <li>
+              <a class="btn" href="https://steamcommunity.com/id/JeriChopper/"><i class="fas fa-user"></i> Steam</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-    <!--Hero-->
+
+    <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
-            <div class="hero-contenet">
-                <h1 class="hero-heading text-xxl">
-                    Improve in CS2
-                </h1>
-                <p class="hero-text">
-                    This is JeriChopper, A CS2 player who has experience in cs for almost a decade
-                    On this website you will be guided tips to become a better version of yourself in cs.
-                    This will correlate to your rank in premier/faceit
-                </p>
-                <div class="hero-buttons">
-                    <a href="#" class="btn1">Coaching</a>
-                    <a href="#" class="btn2">Tutorials</a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-heading text-xxl">
+            JeriChopper
+          </h1>
+          <p class="hero-text">
+            Here you are able to find my socials on the web aswell as check notable statistics within my hobbies such as CS2.<br>
+            If you want to play with me don't hesitate to add me on any platform.
+          </p>
+          <div class="hero-buttons">
+            <a href="#" class="btn btn-primary">Check me out</a>
+            <a href="#" class="btn"><i class="fas fa-laptop"></i> Add me</a>
+          </div>
         </div>
-    </section>
-    <!--Video section-->
-    <section class="video bg-black">
-        <div class="container-sm">
-            <h2 class="video-heading text-xl text-center">
-                See how it works and get started
-            </h2>
-            <div class="video-content">
-                <a href="#">
-                    <img src="img/video-preview.png" alt="video"
-                    class="video-preview">
-                </a>
-                <a href="" class="btn btn1">Find Out More</a>
-            </div>
-        </div>
+      </div>
     </section>
 
-    <script> src="js/main.js"</script>
-</body>
+    <!-- Video Section -->
+    <section class="video bg-black">
+      <div class="container-sm">
+        <h2 class="video-heading text-xl text-center">
+          See my most recent video on YouTube
+        </h2>
+        <div class="video-content">
+          <a href="https://www.youtube.com/watch?v=AcF0QDn1LFY">
+            <img
+              src="img/video-preview.png"
+              alt="video preview"
+              class="video-preview"
+            />
+          </a>
+          <a href="https://www.youtube.com/@JeriChopper/videos" class="btn btn-primary">More videos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics bg-dark">
+      <div class="container">
+        <h3 class="statistics-heading text-xxl">
+          Here are platforms to find my statistics
+        </h3>
+        <div class="statistics-grid">
+          <div class="card">
+            <p>Check my match history on FACEIT platform</p>
+            <a href="https://faceitfinder.com/profile/76561198213070724" target="_blank" class="btn">Visit Faceit Finder</a>
+          </div>
+          <div class="card">
+            <p>Check out my time spent gaming from Steam</p>
+            <a href="https://steamtime.info/s/JeriChopper" target="_blank" class="btn">Visit Steam Info</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq bg-light">
+      <div class="container-sm">
+        <h3 class="text-xl text-center">Frequently Asked Questions</h3>
+        <ul class="faq-menu">
+          <li class="active">All</li>
+          <li>Origins</li>
+          <li>Future</li>
+        </ul>
+        <div class="faq-content">
+          <!-- FAQ Item -->
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">
+                How long have you been playing video games?
+              </h4>
+              <i class="fas fa-minus"></i>
+            </div>
+            <div class="faq-group-body open">
+              <p>
+                I have played video games since I was 8 years old
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item -->
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">
+                What sort of content is in your youtube?
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                My content mostly consists of GTA V stunt videos and CS2 montages. 
+              </p>
+            </div>
+          </div>
+
+          <!-- Additional FAQ Items -->
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">
+                How long have you been playing CS?
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                On Steam I have +8k hours on record of playing CS. I started playing in 2016. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+  </body>
 </html>
