@@ -1,0 +1,17 @@
+{
+  "name": "front_end",
+  "version": "1.0.0",
+  "description": "This project is part of the *Software Development Skills: Front-End 2023-24* course and focuses on building a personal website for my online character, **JeriChopper**. The goal is to create a CV-style website that showcases my alter ego's various experiences across different platforms and video games.",
+  "main": "index.js",
+  "homepage": "https://jerichopper.github.io/front_end",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}
