@@ -81,7 +81,7 @@ img {
   }
   
 .logo img {
-    max-width: 120px; /* Adjust this value as needed */
+    max-width: 120px; 
     height: auto; 
 }
 
