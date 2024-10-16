@@ -15,3 +15,7 @@ Feel free to use the example code provided throughout the course, but remember t
 
 ### Project Idea: JeriChopper  
 The idea behind this project is to develop a CV-style page for my online persona, **JeriChopper**. This character represents my presence across multiple platforms and video games. The website will serve as a hub, linking to my social media accounts and gaming profiles, providing a consolidated view of my online activities and experiences.
+
+### You can check the site from here:  
+https://jerichopper.github.io/Front_End/
+
